@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon"> </head>
+
+<body>
+    <div class="container">
+            <!--Меню-->
+            <header>
+               <div class="logo">
+                   <a href="../index.html"><img src="../img/logo.png" alt=""></a>
+               </div>
+                <ul class="menu">
+<!--
+                    <li>
+                        <a href="index.html"><img src="img/logo.png" alt="логотип"></a>
+                    </li>
+-->
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="../catalog/catalog.html">Каталог</a></li>        
+                    <li><a href="../index.html">Главная</a></li>
+                </ul>
+            </header>
+            <!--/.menu-->
+            <hr style="clear: both">
+        <div class="form_inner">
+            <form action="#" style="width: 100%">
+                <fieldset>
+                    <legend>Напишите Нам</legend>
+                    <div class="form__name">
+                        <label for="myname">Имя</label>
+                        <input type="text" id="myname" size="30" placeholder="Введите Имя">
+                        <br>
+                        <label>Пароль
+                            <input type="password" size="12" placeholder="Введите пароль">
+                        </label>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Введите Email"> </div>
+                    <br>
+                    <label for="country">Выберите страну:</label>
+                    <select name="" id="country">
+                        <option value="ru" selected>Россия</option>
+                        <option value="en">Англия</option>
+                        <option value="am">Армения</option>
+                        <option value="by">Белоруссия</option>
+                    </select>
+                    <br>
+                    <br>
+                    <div class="form__write">
+                        <label for="write">Сообщение Нам</label>
+                        <br>
+                        <textarea name="" id="write" cols="35" rows="10" placeholder="Напишите сообщение здесь:"></textarea>
+                        <br>
+                        <label>Ваш пол
+                            <br> Мужчина
+                            <input type="radio" name="radio"> Женщина
+                            <input type="radio" name="radio"> </label>
+                        <br>
+                        <br>
+                        <label for="date">Часто задаваемые вопросы</label>
+                        <br>
+                        <select name="" id="questions" multiple="multiple" size="3">
+                            <option value="">Как купить ?</option>
+                            <option value="vibor" selected>Гарантия</option>
+                            <option value="">Как оплатить?</option>
+                            <option value="">Доставка</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="file">Загрузить фото</label>
+                        <br>
+                        <input type="file" name="file">
+                        <br>
+                        <br>
+                        <input type="submit" value="Сохранить">
+                        <input type="reset" value="Очистить">
+                        <br>
+                        <br>
+                        <label>Согласие на обработку
+                            <input type="checkbox" checked="checked">
+                        </label>
+                        <br>
+                        <input type="button" value="Отправить">
+                        <br> </div>
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <p>Адрес</p>
+<!--
+        <div class="maps">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A61a1b8474c912999943bd92dd97af77b768545c4d7e85ba88b7a33d25925177a&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+-->
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A61a1b8474c912999943bd92dd97af77b768545c4d7e85ba88b7a33d25925177a&amp;width=100%25&amp;height=374&amp;lang=ru_RU&amp;scroll=true"></script>
+        <br>
+        <br>
+        <p>Город Тверь, ул.Индустриальная, д.13А</p>
+        <p>Телефон +7(123) 321-11-11</p>
+        <br>
+        <hr> </div>
+    <footer> &copy; 2020 «Все права защищены» </footer>
+</body>
+
+</html>

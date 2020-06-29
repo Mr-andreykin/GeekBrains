@@ -1,0 +1,425 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+header {
+    background-color: #c3d4db;
+    background-image: url(../img/background/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+
+    height: 110px;
+}
+
+header .logo {
+    float: left;
+    width: 178px;
+    height: 105px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.menu {
+    padding-top: 20px;
+}
+
+.menu li {
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;;
+    margin-right: 50px;
+}
+
+.menu li a:hover {
+    color: #5fa2cb;
+    font-size: 24px
+}
+
+.menu li:nth-child(2) {
+   text-align: right
+}
+
+.menu a {
+    color: dimgray;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    font-size: 28px
+}
+
+h1,
+h2,
+h3 {
+    font-size: 23px;
+    text-align: center;
+    color: #3e3f41;
+    font-weight: 700
+}
+
+a {
+    color: #00000f;
+    font-size: 22px;
+}
+
+.main {
+    height: 664px;
+    background-image: url(../img/background/mac.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 90%;
+}
+
+.main p {
+    font-family: Verdana;
+    font-size: 30px;
+    color: #5fa2cb;
+    text-align: left;
+}
+
+.main span {
+    text-decoration: underline;
+}
+
+.catalog {
+    width: 100%;
+}
+
+.catalog .catalog__img img {
+    border: 2px solid lightgray
+}
+
+
+/*============FORM===============*/
+
+form {
+    font-family: Verdana
+}
+
+form .form__name input {
+    width: 200px;
+    height: 25px;
+    border-radius: 6px;
+    font-size: 17px;
+    background: #dddae459;
+    padding-left: 7px;
+    color: darkslateblue;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+::placeholder {
+    color: darkgray;
+    text-transform: capitalize;
+    font-style: oblique
+}
+
+form label[for="myname"] {
+    margin-right: 30px
+}
+
+form input[type="password"] {
+    margin-left: 3px;
+    margin-bottom: 4px;
+    margin-top: 4px
+}
+
+form label[for="email"] {
+    margin-right: 12px
+}
+
+form input[type="email"]:hover {
+    color: darkgreen;
+    background: #fcdbdb;
+    font-weight: 700;
+}
+
+form #email {
+    text-transform: lowercase;
+}
+
+form label[for="country"] {
+    font-size: 15px;
+    text-transform: capitalize
+}
+
+#country {
+    height: 26px;
+    border-radius: 5px;
+    color: darkslateblue;
+    font-weight: 600;
+    font-style: oblique;
+    background: #dddae459
+}
+
+#questions {
+    background: white;
+}
+
+form textarea {
+    border-radius: 5px;
+    background: #dddae459;
+}
+
+form label[for="file"] {
+    color: cornflowerblue
+}
+
+form input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    background: #d53e26;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: aliceblue;
+    text-transform: capitalize
+}
+
+.v > a {
+    color: #696969;
+}
+
+
+/*============/.FORM===============*/
+
+.info_inner {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.style_ul {
+    font-size: 16px;
+    list-style-image: url(../img/2451.png);
+    color: aliceblue;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+
+style_ul li {
+    padding: 10px;
+}
+
+#dop_info {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left
+}
+
+.img_tovar {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 4px solid #5c5a5a70;
+    border-radius: 5px;
+    width: 605px
+}
+
+.img_tovar:hover {
+    border: 4px solid transparent;
+    outline: 4px solid #f2f2f2;
+}
+
+.h:hover::after {
+    content: "Нажми на картинку";
+    color: royalblue;
+    font-style: oblique;
+    font-weight: 600
+}
+
+
+/*===============Таблица=================*/
+
+table {
+    width: 500px;
+    height: 300px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+table caption {
+    font-size: 19px
+}
+
+table span {
+    font-size: 21px;
+    color: darkslateblue;
+    font-weight: 700
+}
+
+table th {
+    padding: 15px;
+    border: 1px solid #f2f2f2
+}
+
+table td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #f2f2f2;
+    height: 45px
+}
+
+table .common {
+    height: 170px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+table .common:first-letter {
+    color: red;
+    font-size: 21px;
+}
+
+.table_iphone {
+    font-size: 14px
+}
+
+table .common_iphone {
+    height: 120px
+}
+
+table .common_iphone:first-letter {
+    color: red;
+    font-size: 21px;
+}
+
+table th {
+    border-bottom: 3px solid #f2f2f2;
+}
+
+table td.border3px {
+    border-top: 3px solid #f2f2f2;
+    height: 55px
+}
+
+
+/*===============./Таблица================*/
+
+.inner_p p:first-letter {
+    color: darkred;
+    font-size: 20px;
+    font-weight: 600
+}
+/*Ipods================================*/
+/*=============IMG text===============*/
+.img_text {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.img_text__img {
+    float: left
+}
+
+.img_text__text {
+    overflow: hidden;
+    width: 900px;
+    position: relative;
+    top: 100px;
+    left: 52px;
+}
+}
+
+.form_btn {
+    overflow: hidden
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background: #03A9F4;
+    border-radius: 6px;
+    font-size: 18px;
+    text-transform: unset;
+    cursor: pointer;
+    position: relative;
+    top: 114px;
+    left: 52px;
+}
+
+.btn:hover {
+    font-size: 16px;
+    font-weight: 600;
+    background: #03a9f4b0;
+    transition: .2s;
+}
+
+.btn:active {
+    background: blue;
+    color: chartreuse
+}
+
+/*=============./IMG_text===============*/
+/*./ipods===============================*/
+
+/*iphone================================*/
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img_iphone {
+    width: 50%
+}
+
+.flexbox_text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-self: center
+}
+
+.iphone__btn {
+    text-align: center;
+    margin-right: 200px
+}
+
+/*/.iphone==============================*/
+
+/*/.watch==============================*/
+.flexbox_watch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+
+/*/.watch==============================*/
+footer {
+    font-size: 21px;
+    font-weight: 500;
+        height: 65px;
+    background: #bcd0dc;
+    padding: 30px;
+}
+
+.maps {
+    width: 100%;
+    height: 374px;
+}
+
+footer span {
+        float: right;
+    margin: 10px 20px;
+}
